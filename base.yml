@@ -1,0 +1,22 @@
+## baseline config file- this should get you reasonable WER
+batch_bins: 4000000
+nepochs: 70
+ehiddens: 256
+eprojs: 256
+dhiddens: 512
+demb_dim:  256
+elayers: 3
+etype: blstm
+dlayers: 2
+pfactor: 2
+ddropout: 0.3
+edropout: 0.2
+ssprob: 0.1
+wdecay: 1e-4
+att_dim: 256
+aconv_chans: 10
+aconv_filts: 100
+lr: 1e-3
+opt: adam
+opt_patience: 3
+
